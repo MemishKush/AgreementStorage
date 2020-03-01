@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f235cc3-aaf0-43c8-89bc-7378292f6061" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/asd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AgreementsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestAgreementHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Agreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Agreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Agreement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Agreement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/asd.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.asd">
+  <component name="RunManager" selected="Application.TestAgreementHandler">
+    <configuration name="TestAgreementHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAgreementHandler" />
+      <module name="AgreementStorage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="asd" />
       <module name="AgreementStorage" />
@@ -64,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAgreementHandler" />
         <item itemvalue="Application.asd" />
         <item itemvalue="Application.run" />
       </list>
@@ -91,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583061695858</updated>
-      <workItem from="1583061697311" duration="3595000" />
+      <workItem from="1583061697311" duration="3738000" />
+      <workItem from="1583073806507" duration="7914000" />
     </task>
     <servers />
   </component>
@@ -103,29 +116,37 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Auto_Import/0.0.1600.860@0.0.1600.860" timestamp="1583062162254" />
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1583063652281">
+    <state x="555" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583079060118">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1583063652281" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1583066120893">
+    <state x="555" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1583079060118" />
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1583074824429">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583066120893" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1583066120893">
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1583074824429" />
+    <state width="1557" height="152" key="GridCell.Tab.0.bottom" timestamp="1583082515363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583066120893" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1583066120893">
+    <state width="1557" height="152" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583082515363" />
+    <state width="1557" height="152" key="GridCell.Tab.0.center" timestamp="1583082515363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583066120893" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1583066120893">
+    <state width="1557" height="152" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583082515363" />
+    <state width="1557" height="152" key="GridCell.Tab.0.left" timestamp="1583082515363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583066120893" />
+    <state width="1557" height="152" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583082515363" />
+    <state width="1557" height="152" key="GridCell.Tab.0.right" timestamp="1583082515363">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="152" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583082515363" />
     <state x="301" y="8" key="SettingsEditor" timestamp="1583065394012">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583065394012" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1583073842935">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583073842935" />
   </component>
 </project>

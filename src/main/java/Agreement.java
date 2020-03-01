@@ -1,12 +1,20 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 public class Agreement {
+    public static  final String  DATE_FORMAT =  "dd-MM-yyyy";
 
     private String name;
     private String signedBy;
     private List<Product> productList;
 
+
+
     public Agreement() {
+        SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT);
+        name = "Agreement " +  sdf.format(new Date());
     }
 
     public Agreement(String name, String signedBy, List<Product> productList) {
@@ -38,16 +46,18 @@ public class Agreement {
     public void setProductList(List<Product> productList) {
         this.productList = productList;
     }
-    Agreement agreement = new Agreement("01/03/202","Peter",getProductList());
-    public String toString(Object a){
-         a = agreement;
-
-
-        return "name: " + agreement.getName() + "signed By: " + agreement.getSignedBy() + "Products: " + agreement.getProductList();
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(name).append("\n").append("Signed by: ").append(signedBy).append("\n")
+                .append("Products: \n\t");
+        for (Iterator<Product> iterator = productList.iterator(); iterator.hasNext();) {
+            sb.append(iterator.next());
+            if (iterator.hasNext()) {
+                sb.append("\t");
+            }
+        }
+        return sb.toString();
     }
-    public void print(){
-
-
 
     }
-}
+
