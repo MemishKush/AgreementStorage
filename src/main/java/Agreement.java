@@ -11,7 +11,9 @@ public class Agreement {
     private List<Product> productList;
 
 
-
+    /**
+     * Initialize agreement with current date
+     */
     public Agreement() {
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT);
         name = "Agreement " +  sdf.format(new Date());
